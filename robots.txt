@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nikky009.github.io/sainikhilbalusu.github.io/sitemap.xml
