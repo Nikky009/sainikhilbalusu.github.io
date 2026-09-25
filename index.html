@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official personal website of Sai Nikhil Balusu — career profile, experience, skills and contact information.">
+  <meta name="author" content="Sai Nikhil Balusu">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Sai Nikhil Balusu | Professional Profile">
+  <meta property="og:description" content="Explore the professional profile, experience and career journey of Sai Nikhil Balusu.">
+  <title>Sai Nikhil Balusu | Professional Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home">Sai Nikhil Balusu</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">PROFESSIONAL PROFILE</p>
+      <h1>Sai Nikhil<br><span>Balusu</span></h1>
+      <p class="hero-text">Relationship Manager with experience across automotive, technology and retail business environments.</p>
+      <div class="actions">
+        <a class="btn primary" href="#experience">View Experience</a>
+        <a class="btn secondary" href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="initials">SNB</div>
+      <p>Professional Portfolio</p>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="container two-col">
+    <div>
+      <p class="eyebrow">ABOUT</p>
+      <h2>About Sai Nikhil Balusu</h2>
+    </div>
+    <div class="copy">
+      <p>Sai Nikhil Balusu is a professional with experience spanning mechanical engineering, mobile retail and the automotive industry.</p>
+      <p>His career journey includes working as a Mechanical Intern at Bosch Pvt. Ltd., working as a dealer for OPPO Mobiles Pvt. Ltd., and currently working as a Relationship Manager at Varun Motors Pvt. Ltd.</p>
+      <p>This website presents a concise overview of his professional journey, experience and skills.</p>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="section dark">
+  <div class="container">
+    <p class="eyebrow">CAREER</p>
+    <h2>Professional Experience</h2>
+    <div class="timeline">
+      <article class="experience-card">
+        <span class="number">01</span>
+        <div>
+          <h3>Relationship Manager</h3>
+          <p class="company">Varun Motors Pvt. Ltd.</p>
+          <p>Current role in the automotive business, focused on customer relationships and professional engagement.</p>
+        </div>
+      </article>
+      <article class="experience-card">
+        <span class="number">02</span>
+        <div>
+          <h3>Dealer</h3>
+          <p class="company">OPPO Mobiles Pvt. Ltd.</p>
+          <p>Experience in mobile-device business and customer-facing commercial operations.</p>
+        </div>
+      </article>
+      <article class="experience-card">
+        <span class="number">03</span>
+        <div>
+          <h3>Mechanical Intern</h3>
+          <p class="company">Bosch Pvt. Ltd.</p>
+          <p>Early professional experience in a technical and engineering environment.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container">
+    <p class="eyebrow">CAPABILITIES</p>
+    <h2>Professional Skills</h2>
+    <div class="skills">
+      <span>Customer Relationship Management</span>
+      <span>Automotive Sales & Support</span>
+      <span>Business Communication</span>
+      <span>Client Engagement</span>
+      <span>Retail Operations</span>
+      <span>Technical Exposure</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="container contact-box">
+    <div>
+      <p class="eyebrow">GET IN TOUCH</p>
+      <h2>Let's Connect</h2>
+      <p>For professional enquiries, collaborations or opportunities, use the contact details below.</p>
+    </div>
+    <div class="contact-details">
+      <p><strong>Name</strong><br>Sai Nikhil Balusu</p>
+      <p><strong>Email</strong><br><a href="mailto:your-email@example.com">your-email@example.com</a></p>
+      <p><strong>Phone</strong><br><a href="tel:+910000000000">+91 XXXXX XXXXX</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <span>© 2026 Sai Nikhil Balusu</span>
+    <span>Professional Profile</span>
+  </div>
+</footer>
+
+<script>
+const menu = document.querySelector('.menu-btn');
+const nav = document.querySelector('nav');
+menu.addEventListener('click', () => nav.classList.toggle('open'));
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+</script>
+</body>
+</html>
